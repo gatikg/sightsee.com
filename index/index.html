@@ -1,1 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SightSee.com</title>
+    <link rel="shortcut icon" href="./img/Screenshot (10).png" type="image/x-icon">
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
 
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+             Sight<span>See</span>
+            </a>
+        
+
+        <button type="button" id="navbar-show-btn" class="flex">
+            <i class="fas fa-bars"></i>
+            <!-- The <i> tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic. -->
+            <!-- The <i> tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc. -->
+            <!-- fa-bars are icons of a square with 3 bars -->
+        </button>
+
+        <div id="navbar-collapse">
+            <button type="button" id="navbar-close-btn" class="flex">
+                <i class="fas fa-times"></i>
+                <!-- fas fas-times is an icon with an x inside a box -->
+            </button>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                    Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">
+                    Booking</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                    About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                    Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>See It For Yourself</h1>
+                <p>Welcome to our SightSee.com! We are excited that you are considering a trip to your Destination and we are here to help
+                you plan the perfect vacation.</p>
+            </div>
+            <div class="header-form">
+                <h2>Choose Your Travel Location:</h2>
+                <form class="flex">
+                    <input type="date" class="form-control" placeholder="Date">
+                    <input type="number" class="form-control" placeholder="Price(₹)">
+                    <a class="btn" href="gallery.html" value="Search" >Search</a>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <!-- featured section -->
+
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">
+                    Know about some places before your travel
+                </span>
+                <h2 class="lg-title">
+                    Featured Places
+                </h2>
+            </div> 
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="./img/Majuli Assam (1).jpg" alt="featured place">
+                    
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt">
+                                Majuli,Assam
+                            </i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="./img/Aravali hills Rajasthan (1).jpg" alt="featured place">
+                
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt">
+                                Aravalli Hills,Rajasthan
+                            </i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="./img/Andaman and Nicobar (1).jpg" alt="featured place">
+                
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt">
+                                Andaman and Nicobar
+                            </i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="./img/the great rann of kutch gujarat (1).jpg" alt="featured place">
+                
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt">
+                                Great Rann of Kutch,Gujarat
+                            </i>
+                        </span>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="./img/Malana Village (1).jpg" alt="featured place">
+                
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt">
+                                Malana Village,Himachal
+                            </i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="./img/Gulf of munnar marine national park (1).jpg" alt="featured place">
+                
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt">
+                                Gulf of Munnar, Tamil Nadu
+                            </i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of featured sections -->
+
+    <!-- services section -->
+
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">
+                    Know about services that we offer
+                </span>
+                <h2 class="lg-title">
+                    Our services
+                </h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Convenience</h3>
+                    <p class="text">Our Services providing customer with ease with respect to many thing such as Information and reviews about local destinations and attractions, including detailed descriptions and photos.Tools and resources for planning and organizing trips, such as itinerary planners and maps.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Travel Guide</h3>
+                    <p class="text">Experience the magic of travel with our expert tour guides - we'll take you on a journey of discovery, adventure, and
+                    wonder! Join us on a journey through the world's most incredible destinations, and let our knowledgeable tour guides show you
+                    the hidden gems and hidden treasures that only locals know about.
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">Experience the best of at an affordable
+                    price!" or "Get the most out of your trip without breaking the bank!" This type of description emphasizes the value and
+                    affordability of the tour or travel package being offered, and can help to attract customers who are looking for a good
+                    deal.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+
+    <!-- Testimonial Section -->
+    
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">
+                    What our clients say about us
+                </span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+            
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">I found the travel website to be user-friendly and well-organized, with a wealth of information and resources for
+                    planning a trip. I particularly appreciated the reviews and ratings of local attractions and accommodations, which
+                    helped me make informed decisions about my itinerary. Overall, I would highly recommend this website to anyone planning
+                    a trip.</p>
+                    <div class="test-item-info">
+                        <img src="./img/test-1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Kevin Wilson</h3>
+                            <p class="text">Trip to Agra</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">The travel website is user-friendly and offers a wide range of options for planning and booking trips. The site is easy
+                    to navigate and provides useful information and reviews about local destinations and attractions.</p>
+                    <div class="test-item-info">
+                        <img src="./img/test-2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Ben Davis</h3>
+                            <p class="text">Trip to Gujarat</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">What a wonderful experience! The two tour guides enthralled us with the history of the location. The food was terrific.
+                    We were treated to wonderful and outstanding hospitality. All Thanks to SightSee.</p>
+                    <div class="test-item-info">
+                        <img src="./img/test-3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Jaura Jones</h3>
+                            <p class="text">Trip to Rajasthan</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end of testimonial section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="./video/video-section.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                    <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section>
+    <!-- end of the video section -->
+
+    <!-- footer section -->
+
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">Sight<span>See</span></a>
+                <p class="text">SightSee is a domestic travel website that helps you add more local flavour to your travel stories.
+                    SightSee allows you
+                    to search any location and look into the local locations and hidden gems of each location so that you can go and
+                    wander
+                    into unknown territories accompanied by uncertain but exciting memories.</p>
+            </div>
+            <div class="footer-item">
+                <h2>Follow us on:</h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#" class="fab fa-facebook-f"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fab fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fab fa-pinterest"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fab fa-google-plus"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Agra</a></li>
+                    <li><a href="#">Gujarat</a></li>
+                    <li><a href="#">Uttaranchal</a></li>
+                    <li><a href="#">Shimla</a></li>
+                    <li><a href="#">Karnataka</a></li>
+                </ul>
+            </div>
+            
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe" >
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script>
+        let video = document.querySelector(".video-wrapper video");
+        document.getElementById("play-btn").addEventListener("click",()=>{
+            if (video.paused){
+                video.play();
+                
+            } else{
+                video.pause();
+            }
+        })
+    </script>
+
+
+</body>
+</html>
